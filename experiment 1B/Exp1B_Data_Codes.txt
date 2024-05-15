@@ -1,0 +1,85 @@
+Exp1B_Data_Codes.txt
+#
+# Authors: Edward Vessel
+# Last modified: 2023-06-16
+# Description: code file for ImgData and QData for Exp 1B
+# Vessel, Pasqualette, Uran, Koldehoff, Bignardi, Vinck (2023). Self-relevance predicts aesthetic appeal for real and synthetic artworks generated via neural style transfer. Psychological Science.
+
+Exp1B_ImgData_testSorted_243ss.csv
+This file contains the data for ratings of each image (42 images) by all 243 participants.
+jatosResID: subject ID (subject number)
+image: image number
+trial_main: trial number in the main block
+  The main block consisted of viewing an image, followed by multiple ratings of each image
+mainRT: total time taken to answer all ratings and click "next"
+Moved: ratings for "being moved"
+Beauty: ratings for "feeling of beauty"
+trial_sr" trial number in 2nd block
+  The second block consisted of viewing an image, followed by a rating of self-relevance
+srRT: total time taken to make rating and click "next"
+SelfRelev: rating for self-relevance
+
+Exp1B_QData_243ss.csv
+This file contains participant-level variables, such as answers to demographic and mood questionnaires.
+
+jatosResID: subject ID (subject number)
+workerID: jatos worker ID
+Consent: did participant positively consent?
+Age
+Gender
+  0 no gender stated
+  1 male
+  2 female
+  3 other gender
+Hand
+  1 right
+  2 left
+Vis
+  1 normal vision
+  2 corrected to normal
+Neuro
+  1 diagnosed with a neurological disorder
+  2 no known neurological disorders
+Neuro_comm: explanation
+Med
+  1 on medication for a neurological disorder
+  2 not currently on medication for a neurological disorder
+Educ: education level
+Training: training in arts, music, design, dance, performance, creative writing
+catchTrial:
+  0 did not correctly answer catch trial
+  1 did correctly answer catch trial
+
+Aesthetic Responsiveness Assessment
+area_AA: AReA aesthetic appeal subscore
+area_IAE: AReA intense aesthetic experience subscore
+area_CB: AReA creative behavior subscore
+area_ARTot: AReA total score
+
+panas_PA: PANAS positive affect score
+panas_NA: PANAS negative affect score
+
+Big Five Inventory
+bfi_soc: sociability
+bfi_ass: assertiveness
+bfi_enl: energy level
+bfi_com: compassion
+bfi_rse: respectfulness
+bfi_tru: trust
+bfi_org: organization
+bfi_pro: productiveness
+bfi_rsp: responsibility
+bfi_anx: anxiety
+bfi_dep: depression
+bfi_emv: emotional volatility
+bfi_int: intellectual curiosity
+bfi_aes: aesthetic sensitivity
+bfi_cre: creative imagination
+bfi_Ext: Extraversion
+bfi_Agr: Agreeableness
+bfi_Con: Conscientiousness
+bfi_Neg: Negative Emotionality
+bfi_Opn: Open-Mindedness
+
+
+
