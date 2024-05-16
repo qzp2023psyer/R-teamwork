@@ -1,0 +1,24 @@
+# Exp1A_Data_Codes.txt
+# Authors: Edward Vessel
+# Last modified: 2023-06-16
+# Description: Data codes for Exp. 1A
+# Vessel, Pasqualette, Uran, Koldehoff, Bignardi, Vinck (2023). Self-relevance predicts aesthetic appeal for real and synthetic artworks generated via neural style transfer. Psychological Science.
+
+
+Subj: subject number
+Block:
+  1 ratings of aesthetic appeal (148 images)
+  2 ratings of self-relevance (148 images)
+  3 ratings of aesthetic appeal (20 images, retest)
+  4 ratings of self-relevance (20 images, retest)
+Question:
+  1 aesthetic appeal
+  2 self-relevance
+TestRe:
+  1 test
+  2 retest
+Trial: trial number
+Image: image number
+Rating: rating given
+Time: time to respond
+  
