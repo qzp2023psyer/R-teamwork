@@ -1,4 +1,4 @@
-实验1A数据及变量
+实验1A数据及变量说明
 #Exp1A_ImageFeatures_148x19.csv: 包含了实验 1A 中所有 148 幅艺术品的 19 个计算图像特征的数据文件
 #Exp1A_NatDis_testSorted_27ss.csv: 自然度和美学评分的“测试”数据
 #Exp1A_NatDis_retestSorted_27ss.csv: 自然度和美学评分的“测试”和“重测”数据，用于重复的刺激
@@ -17,7 +17,7 @@ Rating：评分
 Time：反应时
 
 
-实验1B数据及变量
+实验1B数据及变量说明
 # Exp1B_ImgData_testSorted_243ss.csv：包含了 243 名参与者对 42 张图像的评分数据
 jatosResID：受试者 ID（参与者编号）
 image：图像编号
@@ -78,7 +78,7 @@ bfi_Neg: 消极情绪性
 bfi_Opn: 开放性
 
 
-实验2数据及变量
+实验2数据及变量说明
 #Dataratings_Final.csv: 包含了 N=40 名通过测试-重测阈值的参与者的数据，按区块组织，并添加了条件类别和图像名称
 Subj: 受试者编号
 Trial: 试次编号
