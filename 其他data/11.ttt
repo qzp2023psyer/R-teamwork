@@ -1,0 +1,17 @@
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-5}Assessment of reproducibility}\tabularnewline
+\toprule\noalign{}
+RepeatabilityCondition & N & \% \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+RepeatabilityCondition & N & \% \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Totally Aligned(\texttt{δ} = 0\%) & 29 & 85.3 \\
+Less Deviation(0\% \textless{} \texttt{δ} \textless{} 10\%) & 3 & 8.9 \\
+Significant Deviation(\texttt{δ} \textgreater{} 10\%) & 2 & 5.9 \\
+Deviation due to rounding & 0 & 0.0 \\
+\end{longtable}
