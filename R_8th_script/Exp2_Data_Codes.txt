@@ -1,0 +1,36 @@
+# Exp2_Data_Codes.txt
+#
+# Authors: Edward Vessel
+# Last modified: 2023-06-16
+# Description: data codes for Exp. 2
+# Vessel, Pasqualette, Uran, Koldehoff, Bignardi, Vinck (2023). Self-relevance predicts aesthetic appeal for real and synthetic artworks generated via neural style transfer. Psychological Science.
+
+Dataratings_Final.csv
+- Contains data for N=40 participants who survived the test-retest threshold, organized by block and with condition category added and image names.
+
+Subj: subject number
+Trial: trial number
+b1: ratings of aesthetic appeal (80 images)
+b2: ratings of aesthetic appeal (80 images, retest)
+b3: ratings of self-relevance (80 images)
+b4: ratings of self-relevance (80 images, retest)
+Cat: image condition (category)
+ SR self-relevant
+ NR non self-relevant (renamed Other Relevant OR in manuscript)
+ RA real (human-made) artwork
+ GA generated control artworks (renamed GC in manuscript)
+Imgname: image name, where "s01_" indicates that the image was 
+generated based upon questionnaire answers from subject 01.
+
+
+Exp2_Dataratings_Full.csv
+- contains full set of responses for all participants. 
+Used to assess test-retest scores in "Exp2_Reliabiliy.R"
+
+DarawithImgQuest.csv:
+- Data for SR image only, with a "Question" column added to indicate which 
+question the image was generated from. used with Exp2_QuestionClass.R" analysis
+
+
+lpips_data.mat
+- matlab format file containing LPIPS scores for each image. for use with Exp2_lpips.m
